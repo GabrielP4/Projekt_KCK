@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="360.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekt_60134_kck.LoggedInController">
+   <children>
+      <ImageView fitHeight="360.0" fitWidth="470.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../background.png" />
+         </image></ImageView>
+      <Button fx:id="btn_logout" alignment="CENTER" layoutX="373.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Wyloguj" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="82.0" layoutY="100.0" prefHeight="80.0" prefWidth="328.0" text="GRATULACJE">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="180.0" text="Wciśnij przycisk poniżej.">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_send" layoutX="167.0" layoutY="229.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Kod promocyjny" textFill="#fc0000">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

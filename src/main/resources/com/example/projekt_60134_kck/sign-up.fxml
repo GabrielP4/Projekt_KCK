@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="360.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekt_60134_kck.SignUpController">
+   <children>
+       <ImageView fitHeight="360.0" fitWidth="470.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../../../background.png" />
+           </image></ImageView>
+       <Label alignment="CENTER" layoutX="71.0" layoutY="14.0" prefHeight="53.0" prefWidth="185.0" text="Rejestracja" textAlignment="CENTER" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="61.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font></Label>
+       <Label layoutX="23.0" layoutY="67.0" prefHeight="23.0" prefWidth="121.0" text="Nazwa użytkownika">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+       <TextField fx:id="tf_username" layoutX="22.0" layoutY="90.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="22.0" />
+       <Label layoutX="23.0" layoutY="115.0" prefHeight="23.0" prefWidth="35.0" text="Imię"><font>
+           <Font name="System Bold" size="12.0" />
+       </font></Label>
+
+       <TextField fx:id="tf_userfirstname" layoutX="22.0" layoutY="138.0" prefHeight="25.0" prefWidth="211.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="237.0" />
+       <Label layoutX="237.0" layoutY="115.0" prefHeight="23.0" prefWidth="54.0" text="Nazwisko">
+           <font>
+               <Font name="System Bold" size="12.0" />
+           </font></Label>
+       <TextField fx:id="tf_userlastname" layoutX="237.0" layoutY="138.0" prefHeight="25.0" prefWidth="211.0" AnchorPane.leftAnchor="237.0" AnchorPane.rightAnchor="22.0" />
+       <Label layoutX="22.0" layoutY="165.0" prefHeight="23.0" prefWidth="35.0" text="Hasło">
+           <font>
+               <Font name="System Bold" size="12.0" />
+           </font></Label>
+       <TextField fx:id="tf_password" layoutX="21.0" layoutY="188.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="21.0" />
+       <Label layoutX="22.0" layoutY="213.0" prefHeight="23.0" prefWidth="48.0" text="E-mail">
+           <font>
+               <Font name="System Bold" size="12.0" />
+           </font></Label>
+       <TextField fx:id="tf_email" layoutX="23.0" layoutY="236.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="22.0" />
+       <Button fx:id="btn_back" layoutX="101.0" layoutY="302.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="72.0" style="-fx-background-color: transparent;" text="Powrót" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+       <Button fx:id="btn_sign_up" layoutX="291.0" layoutY="300.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" style="-fx-background-color: transparent;" text="Zarejestruj" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+       <Label layoutX="136.0" layoutY="66.0" text="*" textFill="RED" />
+       <Label layoutX="50.0" layoutY="115.0" text="*" textFill="RED" />
+       <Label layoutX="297.0" layoutY="115.0" text="*" textFill="RED" />
+       <Label layoutX="55.0" layoutY="165.0" text="*" textFill="RED" />
+       <Label layoutX="60.0" layoutY="213.0" text="*" textFill="RED" />
+   </children>
+</AnchorPane>
